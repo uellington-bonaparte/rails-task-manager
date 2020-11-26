@@ -1,8 +1,2 @@
-<div class="container">
-  <%= simple_form_for(@task) do |task| %>
-    <%= task.input :title %>
-    <%= task.input :details %>
-    <%= task.input :completed %>
-    <%= task.submit %>
-  <% end %>
-</div>
+<%# renderiza o form que é utilizado tanto para new quanto para edit %>
+<%= render 'form' %>
